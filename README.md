@@ -1,13 +1,13 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://dyte.io">
+  <a href="https://metis.so">
     <img src="https://assets.dyte.io/logo-outlined.png" alt="Logo" width="120">
   </a>
 
   <h2 align="center">先飞有限公司</h3>
 
   <p align="center">
-    Dyte's documentation portal, built with Docusaurus.
+    METIS LIMITED
     <br />
     <a href="https://docs.dyte.io"><strong>Explore the docs »</strong></a>
     <br />
