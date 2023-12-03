@@ -20,21 +20,21 @@ interface Guide {
 
 const guides: Guide[] = [
   {
-    title: 'Start Recording a Meeting',
+    title: '占位符2.1.1',
     icon: RecordRegular,
-    text: 'Check out an example of this integration of recording a meeting.',
+    text: '占位符2.1.1.1',
     link: '/guides/capabilities/recording',
   },
   {
-    title: 'Migrate from Twilio',
+    title: '占位符2.1.2',
     icon: VideoRegular,
-    text: 'Migration simplified. Refer the guide.',
+    text: '占位符2.1.1.2',
     link: '/guides/migration/twilio/concepts-twilio-vs-dyte',
   },
   {
-    title: 'Create a Breakout Room',
+    title: '占位符2.1.2',
     icon: AppsAddInRegular,
-    text: 'Easily split a meeting in separate sessions.',
+    text: '占位符2.1.1.3',
     link: '/guides/capabilities/breakoutroom/create-breakout-rooms',
   },
 ];
@@ -49,23 +49,23 @@ interface Sample {
 
 const samples: Sample[] = [
   {
-    title: 'Code Sharing Platform',
-    platform: 'React',
+    title: '占位符2.3.1',
+    platform: '占位符2.3.1.1',
     source: 'https://github.com/dyte-io/blog-live-code-sharing',
-    blog: 'https://dyte.io/blog/live-code-sharing-platform/',
+    blog: 'https://metis.so/blog/live-code-sharing-platform/',
     demo: 'https://dyte-code-editor.herokuapp.com/room/bbbf8c1f-5eee-4548-90e6-54c1301711cb',
   },
   {
-    title: 'Async Interview Platform',
-    platform: 'React',
-    blog: 'https://dyte.io/blog/async-interview-platform/',
+    title: '占位符2.3.2',
+    platform: '占位符2.3.1.2',
+    blog: 'https://metis.so/blog/async-interview-platform/',
     source: 'https://github.com/dyte-io/async-interview',
     demo: 'https://dyte-async-interview.vercel.app',
   },
   {
-    title: 'Live Proctoring System',
-    platform: 'React',
-    blog: 'https://dyte.io/blog/live-proctoring-system/',
+    title: '占位符2.3.3',
+    platform: '占位符2.3.1.3',
+    blog: 'https://metis.so/blog/live-proctoring-system/',
     source: 'https://github.com/dyte-io/proctored-live-interviews',
     demo: 'https://dyte-multi-faces.netlify.app/',
   },
@@ -131,10 +131,10 @@ export default function GuidesAndSamples() {
     <section className="no-underline-links my-40 mx-auto flex w-full max-w-5xl flex-col gap-10 p-4 py-0 md:flex-row md:gap-0">
       <div className="flex-1">
         <div className="mb-8 flex items-center justify-between">
-          <h3 className="m-0">Popular how to guides</h3>
+          <h3 className="m-0">占位符2.1</h3>
 
           <Link to="/guides" className="font-jakarta text-sm font-semibold">
-            View more guides <ArrowRightFilled className="ml-1" />
+            占位符2.2 <ArrowRightFilled className="ml-1" />
           </Link>
         </div>
 
@@ -154,13 +154,13 @@ export default function GuidesAndSamples() {
 
       <div className="w-full md:max-w-sm">
         <div className="mb-8 flex items-center justify-between">
-          <h3 className="m-0">Popular sample apps</h3>
+          <h3 className="m-0">占位符2.3</h3>
 
           <Link
             to="https://github.com/dyte-io"
             className="font-jakarta text-sm font-semibold"
           >
-            All apps <ArrowRightFilled className="ml-1" />
+            占位符2.4 <ArrowRightFilled className="ml-1" />
           </Link>
         </div>
 

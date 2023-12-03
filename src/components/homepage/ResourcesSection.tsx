@@ -20,9 +20,8 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: '/guides/v2-migration-guide',
     type: 'blog',
-    title: 'Migrate to v2 REST API',
-    description:
-      'Excited to announce the release of our v2 REST APIs, which are faster, more idiomatic, and easier to use.',
+    title: '占位符5.3.1',
+    description: '占位符5.3.1.1',
     image:
       'https://dyte.io/blog/content/images/size/w1000/2023/02/Dyte-Blog---v2-APIs.jpg',
     duration: '3 min',
@@ -30,9 +29,8 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://dyte.io/blog/hls-in-depth/',
     type: 'blog',
-    title: 'HLS in Depth',
-    description:
-      "HLS is widely adopted, simple, yet robust. Learn how it works from a client's perspective, its segments, features, and disadvantages.",
+    title: '占位符5.3.2',
+    description: '占位符5.3.2.1',
     image:
       'https://dyte.io/blog/content/images/size/w1000/2023/07/HLS--indepth--header--1.png',
     duration: '10 min',
@@ -40,26 +38,24 @@ const ALL_RESOURCES: Resource[] = [
   {
     url: 'https://www.youtube.com/watch?v=eVUqkNNHh1o',
     type: 'video',
-    title: 'Integrating React UI Kit',
-    description:
-      'In this video learn how to use React UI Kit prebuilt components to add live video and audio to your React application.',
+    title: '占位符5.3.3',
+    description: '占位符5.3.3.1',
     image: 'https://img.youtube.com/vi/eVUqkNNHh1o/hqdefault.jpg',
     duration: '5 min',
   },
   {
     url: 'https://www.youtube.com/watch?v=ZkrZc8Neh6A',
     type: 'video',
-    title: 'Video KYC App using React UI Kit',
-    description:
-      'In this episode of Dyte Byte we show how to build Video KYC App using React UI Kit.',
+    title: '占位符5.3.4',
+    description: '占位符5.3.4.1',
     image: 'https://img.youtube.com/vi/ZkrZc8Neh6A/hqdefault.jpg',
     duration: '5 min',
   },
   {
     url: 'https://www.youtube.com/watch?v=UHuzWDxrvLk',
     type: 'video',
-    title: 'Calling Dyte REST APIs',
-    description: 'Understand our HTTP REST APIs',
+    title: '占位符5.3.5',
+    description: '占位符5.3.5.1',
     image: 'https://img.youtube.com/vi/UHuzWDxrvLk/hqdefault.jpg',
     duration: '7 min',
   },
@@ -132,14 +128,14 @@ export default function ResourcesSection() {
       <div className="mx-auto max-w-5xl">
         <div className="flex items-center justify-between">
           <div>
-            <span className="dyte-badge">RESOURCES</span>
-            <h2 className="mb-6 text-4xl">Want to know more?</h2>
+            <span className="dyte-badge">占位符5</span>
+            <h2 className="mb-6 text-4xl">占位符5.1</h2>
           </div>
           <Link
             to="https://dyte.io/blog"
             className="font-jakarta text-sm font-semibold text-primary"
           >
-            All Blogs <ArrowRightFilled className="ml-1" />
+            占位符5.1.1 <ArrowRightFilled className="ml-1" />
           </Link>
         </div>
 
@@ -152,7 +148,7 @@ export default function ResourcesSection() {
             )}
             onClick={() => setActiveType('all')}
           >
-            All
+            占位符5.2
           </button>
           <button
             className={clsx(
@@ -162,7 +158,7 @@ export default function ResourcesSection() {
             )}
             onClick={() => setActiveType('blog')}
           >
-            Blogs
+            占位符5.2.1
           </button>
           <button
             className={clsx(
@@ -172,7 +168,7 @@ export default function ResourcesSection() {
             )}
             onClick={() => setActiveType('video')}
           >
-            Videos
+            占位符5.2.3
           </button>
         </div>
 

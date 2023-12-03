@@ -21,17 +21,13 @@ export default function APIReferenceSection() {
           <ArrowUpRight className="h-6 w-6 text-zinc-400 dark:text-black" />
         </Link>
         <div className="flex-1">
-          <h2 className="text-4xl">REST API Reference</h2>
-          <p className="text-zinc-400">
-            Don&apos;t worry, they are&apos;t complex. Use our
-            developer-friendly REST APIs and integrate video and voice communication
-            into your web, mobile, or desktop applications programmatically.
-          </p>
+          <h2 className="text-4xl">占位符4</h2>
+          <p className="text-zinc-400"> 占位符4.1</p>
           <Link
             href="/api"
             className="font-medium text-primary-100 dark:text-primary"
           >
-            Get started with Dyte REST APIs &rarr;
+            了解更多 &rarr;
           </Link>
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">
@@ -39,42 +35,36 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/createMeeting"
                 className="group font-jakarta font-semibold text-current"
               >
-                Create a meeting
+                占位符4.2
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
-              <div className="text-zinc-400">
-                Create a meeting for your organization
-              </div>
+              <div className="text-zinc-400">占位符4.2.1</div>
             </li>
             <li className="flex flex-col gap-1">
               <Link
                 href="/api/#/operations/addPreset"
                 className="group font-jakarta font-semibold text-current"
               >
-                Add a preset
+                占位符4.3
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
-              <div className="text-zinc-400">
-                Add a preset for the given organization ID
-              </div>
+              <div className="text-zinc-400">占位符4.3.1</div>
             </li>
             <li className="flex flex-col gap-1">
               <Link
                 href="/api/#/operations/deleteParticipant"
                 className="group font-jakarta font-semibold text-current"
               >
-                Delete a participant
+                占位符4.4
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
-              <div className="text-zinc-400">
-                Delete a participant from the meeting
-              </div>
+              <div className="text-zinc-400">占位符4.1</div>
             </li>
           </ul>
         </div>

@@ -7,75 +7,75 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 const products = [
   {
-    name: 'Live Video',
-    href: 'https://dyte.io/video-sdk',
+    name: '页脚1.1',
+    href: 'https://metis.so/video-sdk',
   },
   {
-    name: 'Voice Conferencing',
-    href: 'https://dyte.io/voice-sdk',
+    name: '页脚1.2',
+    href: 'https://metis.so/voice-sdk',
   },
   {
-    name: 'Live Streaming',
-    href: 'https://dyte.io/live-streaming-sdk',
+    name: '页脚1.3',
+    href: 'https://metis.so/live-streaming-sdk',
   },
   {
-    name: 'Chat SDK',
-    href: 'https://dyte.io/chat-sdk',
+    name: '页脚1.4',
+    href: 'https://metis.so/chat-sdk',
   },
   {
-    name: 'Pricing',
-    href: 'https://dyte.io/pricing',
+    name: '页脚1.5',
+    href: 'https://metis.so/pricing',
   },
 ];
 
 const developers = [
   {
-    name: 'Developer Portal',
-    href: 'https://dev.dyte.io',
+    name: '页脚2.1',
+    href: 'https://dev.metis.so',
   },
   {
-    name: 'Documentation',
-    href: 'https://docs.dyte.io',
+    name: '页脚2.2',
+    href: 'https://docs.metis.so',
   },
   {
-    name: 'Showcase',
-    href: 'https://dyte.io/showcase',
+    name: '页脚2.3',
+    href: 'https://metis.so/showcase',
   },
   {
-    name: 'API Reference',
+    name: '页脚2.4',
     href: '/api',
   },
   {
-    name: 'Guides',
+    name: '页脚2.5',
     href: '/guides',
   },
 ];
 
 const usecases = [
-  { name: 'Ed-Tech', href: 'https://dyte.io/use-cases/ed-tech' },
-  { name: 'Telehealth', href: 'https://dyte.io/use-cases/telehealth' },
-  { name: 'HR Tech', href: 'https://dyte.io/use-cases/hr-tech' },
-  { name: 'Fitness', href: 'https://dyte.io/use-cases/fitness' },
-  { name: 'Social', href: 'https://dyte.io/use-cases/social' },
-  { name: 'Gaming', href: 'https://dyte.io/use-cases/gaming' },
-  { name: 'Events', href: 'https://dyte.io/use-cases/events' },
+  { name: '页脚3.1', href: 'https://metis.so/use-cases/ed-tech' },
+  { name: '页脚3.2', href: 'https://metis.so/use-cases/telehealth' },
+  { name: '页脚3.3', href: 'https://metis.so/use-cases/hr-tech' },
+  { name: '页脚3.4', href: 'https://metis.so/use-cases/fitness' },
+  { name: '页脚3.5', href: 'https://metis.so/use-cases/social' },
+  { name: '页脚3.6', href: 'https://metis.so/use-cases/gaming' },
+  { name: '页脚3.7', href: 'https://metis.so/use-cases/events' },
 ];
 
 const company = [
-  { name: 'About Us', href: 'https://dyte.io/about' },
-  { name: 'Blog', href: 'https://dyte.io/blog' },
-  { name: 'Careers', href: 'https://jobs.lever.co/dyte-io' },
-  { name: 'Community', href: 'https://dyte.io/community' },
-  { name: 'Startup Program', href: 'https://dyte.io/startups' },
-  { name: 'Contact Us', href: 'https://dyte.io/contact' },
-  { name: 'FAQ', href: '/faq' },
+  { name: '页脚4.1', href: 'https://metis.so/about' },
+  { name: '页脚4.2', href: 'https://metis.so/blog' },
+  { name: '页脚4.3', href: 'https://jobs.lever.co/dyte-io' },
+  { name: '页脚4.4', href: 'https://metis.so/community' },
+  { name: '页脚4.5', href: 'https://metis.so/startups' },
+  { name: '页脚4.6', href: 'https://metis.so/contact' },
+  { name: '页脚4.7', href: '/faq' },
 ];
 
 const comparisons = [
-  { name: 'Dyte vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'Dyte vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'Dyte vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'Dyte vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+  { name: '页脚5.1', href: 'https://metis.so/agora-competitor' },
+  { name: '页脚5.2', href: 'https://metis.so/zoom-sdk-competitor' },
+  { name: '页脚5.3', href: 'https://metis.so/twilio-video-competitor' },
+  { name: '页脚5.4', href: 'https://metis.so/vonage-video-alternative' },
 ];
 
 function Safety({ className }) {
@@ -87,12 +87,13 @@ function Safety({ className }) {
       )}
     >
       <div className="flex flex-1 place-items-center justify-center rounded-2xl bg-white px-4 py-6 font-jakarta font-bold text-gray-500">
-        Your Security,<br />
-        Our Priority.
+        您的目标，
+        <br />
+        是我们的优先事项。
       </div>
       <div className="flex flex-1 items-center justify-around px-6">
-        <img src="/img/soc-compliant-1.png" />
-        <img src="/img/vector.png" />
+        <img src="/img/24h.png" />
+        {/* <img src="/img/ird.png" /> */}
       </div>
     </div>
   );
@@ -101,7 +102,7 @@ function Safety({ className }) {
 function Status({ className }) {
   const [status, setStatus] = useState({
     indicator: 'none',
-    description: 'All Systems Operational',
+    description: '香港业务均可办理',
   });
 
   useEffect(() => {
@@ -121,7 +122,7 @@ function Status({ className }) {
 
   return (
     <Link
-      href="https://status.dyte.io"
+      href="https://metis.so"
       className={clsx(
         'flex items-center gap-2 rounded-lg border border-transparent p-1 px-2 font-jakarta font-semibold text-gray-500 transition-colors hover:border-gray-400 hover:bg-white hover:no-underline',
         className
@@ -134,7 +135,7 @@ function Status({ className }) {
           status.indicator === 'none' ? 'bg-[#2DB002]' : 'bg-yellow-500'
         )}
       ></div>
-      <div>{status.description}</div>
+      <div>香港业务均可办理</div>
     </Link>
   );
 }
@@ -194,28 +195,28 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 text-sm text-gray-500">
             <Link
-              href="https://dyte.io/privacy-policy"
+              href="https://metis.so/privacy-policy"
               className="text-inherit hover:text-black hover:underline"
             >
-              Privacy Policy
+              隐私政策
             </Link>
             &bull;
             <Link
-              href="https://dyte.io/terms-of-service"
+              href="https://metis.so/terms-of-service"
               className="text-inherit hover:text-black hover:underline"
             >
-              Terms of Service
+              服务条款
             </Link>
             &bull;
             <Link
-              href="https://dyte.io/website-terms-of-use"
+              href="https://metis.so/website-terms-of-use"
               className="text-inherit hover:text-black hover:underline"
             >
-              Website Terms of Use
+              网站使用条款
             </Link>
             &bull;
             <span className="text-inherit">
-              &copy; {new Date().getFullYear()} Dyte Inc.
+              &copy; {new Date().getFullYear()} METIS LIMITED.
             </span>
           </div>
 

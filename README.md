@@ -4,7 +4,7 @@
     <img src="https://assets.dyte.io/logo-outlined.png" alt="Logo" width="120">
   </a>
 
-  <h2 align="center">Dyte Docs</h3>
+  <h2 align="center">先飞有限公司</h3>
 
   <p align="center">
     Dyte's documentation portal, built with Docusaurus.
@@ -131,7 +131,7 @@ const SECTIONS = [
     icon: GoIcon,
     section: false, // if it shouldn't have a sections menu
   },
-]
+];
 ```
 
 You'll need to create a GoIcon component too.

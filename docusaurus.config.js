@@ -5,9 +5,9 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'Dyte Docs',
+  title: '先飞有限公司',
   tagline: 'Real-time audio & video SDKs, ready to launch 🚀',
-  url: 'https://docs.dyte.io',
+  url: 'https://metis.so',
   baseUrl: '/',
   favicon: '/favicon.ico',
   i18n: {
@@ -225,22 +225,52 @@ const plugins = [
     {
       createRedirects(path) {
         if (path.startsWith('/web-core/livestreaming')) {
-          return [path.replace('/web-core/livestreaming', '/web-core/livestreaming/livestream-apis')];
+          return [
+            path.replace(
+              '/web-core/livestreaming',
+              '/web-core/livestreaming/livestream-apis'
+            ),
+          ];
         }
         if (path.startsWith('/rn-core/livestreaming')) {
-          return [path.replace('/rn-core/livestreaming', '/rn-core/livestreaming/livestream-apis')];
+          return [
+            path.replace(
+              '/rn-core/livestreaming',
+              '/rn-core/livestreaming/livestream-apis'
+            ),
+          ];
         }
         if (path.startsWith('/react-web-core/livestreaming')) {
-          return [path.replace('/react-web-core/livestreaming', '/react-web-core/livestreaming/livestream-apis')];
+          return [
+            path.replace(
+              '/react-web-core/livestreaming',
+              '/react-web-core/livestreaming/livestream-apis'
+            ),
+          ];
         }
         if (path.startsWith('/web-core/stage')) {
-          return [path.replace('/web-core/stage', '/web-core/livestreaming/state-management-apis')];
+          return [
+            path.replace(
+              '/web-core/stage',
+              '/web-core/livestreaming/state-management-apis'
+            ),
+          ];
         }
         if (path.startsWith('/rn-core/stage')) {
-          return [path.replace('/rn-core/stage', '/rn-core/livestreaming/state-management-apis')];
+          return [
+            path.replace(
+              '/rn-core/stage',
+              '/rn-core/livestreaming/state-management-apis'
+            ),
+          ];
         }
         if (path.startsWith('/react-web-core/stage')) {
-          return [path.replace('/react-web-core/stage', '/react-web-core/livestreaming/state-management-apis')];
+          return [
+            path.replace(
+              '/react-web-core/stage',
+              '/react-web-core/livestreaming/state-management-apis'
+            ),
+          ];
         }
         if (path.startsWith('/guides/capabilities/webhooks')) {
           return [
@@ -422,18 +452,18 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: '先飞有限公司',
           height: '40px',
           width: '101px',
         },
         items: [
           {
-            label: 'Guides',
+            label: '香港',
             to: 'guides',
             className: 'guides-top-header',
           },
           {
-            label: 'SDKs',
+            label: '香港2',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
@@ -445,11 +475,11 @@ const config = {
             ],
           },
           {
-            label: 'REST API',
+            label: '香港3',
             to: '/api/',
           },
           {
-            label: 'Resources',
+            label: '香港4',
             type: 'dropdown',
             className: 'dyte-dropdown resources-dropdown',
             items: [
@@ -461,7 +491,7 @@ const config = {
             ],
           },
           {
-            label: 'Support',
+            label: '香港5',
             to: 'https://dyte.io/contact',
           },
 
@@ -470,14 +500,14 @@ const config = {
             position: 'right',
           },
           {
-            label: 'Book a demo',
-            href: 'https://dyte.io/schedule-demo',
+            label: '预约洽谈',
+            href: 'https://metis.so/schedule-demo',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
-            label: 'Sign Up',
-            href: 'https://dev.dyte.io/register',
+            label: '牌照编号:TC008345',
+            href: '/',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
@@ -548,7 +578,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2023. All rights reserved.',
+        copyright: 'Copyright © METIS 2023. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,
